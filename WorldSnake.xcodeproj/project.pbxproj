@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602488AC20B0016400D6F75B /* WorldSnake.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488AA20B0016400D6F75B /* WorldSnake.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488E420B001B100D6F75B /* WorldSnakeTaskDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488B020B001B100D6F75B /* WorldSnakeTaskDelegator.m */; };
+		602488E520B001B100D6F75B /* WorldSnakeUploadTaskDelegator.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488B120B001B100D6F75B /* WorldSnakeUploadTaskDelegator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602488E620B001B100D6F75B /* WorldSnakeDataTaskDelegator.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488B220B001B100D6F75B /* WorldSnakeDataTaskDelegator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602488E720B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488B320B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602488E820B001B100D6F75B /* NSURLSessionTask+WSAdding.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488B420B001B100D6F75B /* NSURLSessionTask+WSAdding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602488E920B001B100D6F75B /* WorldSnakeTaskDelegator.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488B520B001B100D6F75B /* WorldSnakeTaskDelegator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		602488EA20B001B100D6F75B /* WorldSnakeUploadTaskDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488B620B001B100D6F75B /* WorldSnakeUploadTaskDelegator.m */; };
+		602488EB20B001B100D6F75B /* WorldSnakeDataTaskDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488B720B001B100D6F75B /* WorldSnakeDataTaskDelegator.m */; };
+		602488EC20B001B100D6F75B /* NSURLSessionTask+WSAdding.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488B820B001B100D6F75B /* NSURLSessionTask+WSAdding.m */; };
+		602488ED20B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488B920B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.m */; };
+		602488EE20B001B100D6F75B /* WorldSnakeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488BB20B001B100D6F75B /* WorldSnakeRequest.m */; };
+		602488EF20B001B100D6F75B /* WorldSnakeDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488BC20B001B100D6F75B /* WorldSnakeDataRequest.m */; };
+		602488F020B001B100D6F75B /* WorldSnakeUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488BD20B001B100D6F75B /* WorldSnakeUploadRequest.m */; };
+		602488F120B001B100D6F75B /* WorldSnakeDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488BE20B001B100D6F75B /* WorldSnakeDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488F220B001B100D6F75B /* WorldSnakeDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488BF20B001B100D6F75B /* WorldSnakeDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488F320B001B100D6F75B /* WorldSnakeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488C020B001B100D6F75B /* WorldSnakeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488F420B001B100D6F75B /* WorldSnakeDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488C120B001B100D6F75B /* WorldSnakeDownloadRequest.m */; };
+		602488F520B001B100D6F75B /* WorldSnakeUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488C220B001B100D6F75B /* WorldSnakeUploadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488F620B001B100D6F75B /* WSURLComponents+Enconding.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488C420B001B100D6F75B /* WSURLComponents+Enconding.m */; };
+		602488F720B001B100D6F75B /* WorldSnakeURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488C520B001B100D6F75B /* WorldSnakeURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488F820B001B100D6F75B /* WSEncodingAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488C620B001B100D6F75B /* WSEncodingAttribute.m */; };
+		602488F920B001B100D6F75B /* WorldSnakeTaskConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488C720B001B100D6F75B /* WorldSnakeTaskConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488FA20B001B100D6F75B /* WSURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488C820B001B100D6F75B /* WSURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488FB20B001B100D6F75B /* WorldSnakeURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488C920B001B100D6F75B /* WorldSnakeURLEncoding.m */; };
+		602488FC20B001B100D6F75B /* WSURLComponents+Enconding.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488CA20B001B100D6F75B /* WSURLComponents+Enconding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488FD20B001B100D6F75B /* WSEncodingAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488CB20B001B100D6F75B /* WSEncodingAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602488FE20B001B100D6F75B /* WSURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488CC20B001B100D6F75B /* WSURLComponents.m */; };
+		602488FF20B001B100D6F75B /* WorldSnakeTaskConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488CD20B001B100D6F75B /* WorldSnakeTaskConstructor.m */; };
+		6024890020B001B100D6F75B /* WorldSnakeMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488CF20B001B100D6F75B /* WorldSnakeMacro.m */; };
+		6024890120B001B100D6F75B /* WorldSnakeMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488D020B001B100D6F75B /* WorldSnakeMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890220B001B100D6F75B /* WorldSnakeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488D220B001B100D6F75B /* WorldSnakeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890320B001B100D6F75B /* WSResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488D320B001B100D6F75B /* WSResponseSerialization.m */; };
+		6024890420B001B100D6F75B /* WorldSnakeDownloadResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488D420B001B100D6F75B /* WorldSnakeDownloadResult.m */; };
+		6024890520B001B100D6F75B /* WorldSnakeDataResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488D520B001B100D6F75B /* WorldSnakeDataResult.m */; };
+		6024890620B001B100D6F75B /* WorldSnakeUploadResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488D620B001B100D6F75B /* WorldSnakeUploadResult.m */; };
+		6024890720B001B100D6F75B /* WorldSnakeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488D720B001B100D6F75B /* WorldSnakeResult.m */; };
+		6024890820B001B100D6F75B /* WorldSnakeUploadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488D820B001B100D6F75B /* WorldSnakeUploadResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890920B001B100D6F75B /* WorldSnakeDownloadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488D920B001B100D6F75B /* WorldSnakeDownloadResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890A20B001B100D6F75B /* WSResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488DA20B001B100D6F75B /* WSResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890B20B001B100D6F75B /* WorldSnakeDataResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488DB20B001B100D6F75B /* WorldSnakeDataResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024890C20B001B100D6F75B /* WorldSnakeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488DD20B001B100D6F75B /* WorldSnakeSession.m */; };
+		6024890D20B001B100D6F75B /* WorldSnakeSession+WSAdding.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488DE20B001B100D6F75B /* WorldSnakeSession+WSAdding.m */; };
+		6024890E20B001B100D6F75B /* WorldSnakeDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 602488DF20B001B100D6F75B /* WorldSnakeDelegator.m */; };
+		6024890F20B001B100D6F75B /* WorldSnakeSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488E020B001B100D6F75B /* WorldSnakeSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024891020B001B100D6F75B /* WorldSnakeDelegator.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488E120B001B100D6F75B /* WorldSnakeDelegator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6024891120B001B100D6F75B /* WorldSnakeSession+WSAdding.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488E220B001B100D6F75B /* WorldSnakeSession+WSAdding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6024891220B001B100D6F75B /* WorldSnakeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 602488E320B001B100D6F75B /* WorldSnakeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6075A51420B12F9100EC8F4B /* NSError+WSAdding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6075A51220B12F9100EC8F4B /* NSError+WSAdding.h */; };
+		6075A51520B12F9100EC8F4B /* NSError+WSAdding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6075A51320B12F9100EC8F4B /* NSError+WSAdding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6024889E20B0013300D6F75B /* WorldSnake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WorldSnake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		602488AA20B0016400D6F75B /* WorldSnake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnake.h; sourceTree = "<group>"; };
+		602488AB20B0016400D6F75B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602488B020B001B100D6F75B /* WorldSnakeTaskDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeTaskDelegator.m; sourceTree = "<group>"; };
+		602488B120B001B100D6F75B /* WorldSnakeUploadTaskDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeUploadTaskDelegator.h; sourceTree = "<group>"; };
+		602488B220B001B100D6F75B /* WorldSnakeDataTaskDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDataTaskDelegator.h; sourceTree = "<group>"; };
+		602488B320B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDownloadTaskDelegator.h; sourceTree = "<group>"; };
+		602488B420B001B100D6F75B /* NSURLSessionTask+WSAdding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+WSAdding.h"; sourceTree = "<group>"; };
+		602488B520B001B100D6F75B /* WorldSnakeTaskDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeTaskDelegator.h; sourceTree = "<group>"; };
+		602488B620B001B100D6F75B /* WorldSnakeUploadTaskDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeUploadTaskDelegator.m; sourceTree = "<group>"; };
+		602488B720B001B100D6F75B /* WorldSnakeDataTaskDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDataTaskDelegator.m; sourceTree = "<group>"; };
+		602488B820B001B100D6F75B /* NSURLSessionTask+WSAdding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+WSAdding.m"; sourceTree = "<group>"; };
+		602488B920B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDownloadTaskDelegator.m; sourceTree = "<group>"; };
+		602488BB20B001B100D6F75B /* WorldSnakeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeRequest.m; sourceTree = "<group>"; };
+		602488BC20B001B100D6F75B /* WorldSnakeDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDataRequest.m; sourceTree = "<group>"; };
+		602488BD20B001B100D6F75B /* WorldSnakeUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeUploadRequest.m; sourceTree = "<group>"; };
+		602488BE20B001B100D6F75B /* WorldSnakeDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDownloadRequest.h; sourceTree = "<group>"; };
+		602488BF20B001B100D6F75B /* WorldSnakeDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDataRequest.h; sourceTree = "<group>"; };
+		602488C020B001B100D6F75B /* WorldSnakeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeRequest.h; sourceTree = "<group>"; };
+		602488C120B001B100D6F75B /* WorldSnakeDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDownloadRequest.m; sourceTree = "<group>"; };
+		602488C220B001B100D6F75B /* WorldSnakeUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeUploadRequest.h; sourceTree = "<group>"; };
+		602488C420B001B100D6F75B /* WSURLComponents+Enconding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WSURLComponents+Enconding.m"; sourceTree = "<group>"; };
+		602488C520B001B100D6F75B /* WorldSnakeURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeURLEncoding.h; sourceTree = "<group>"; };
+		602488C620B001B100D6F75B /* WSEncodingAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEncodingAttribute.m; sourceTree = "<group>"; };
+		602488C720B001B100D6F75B /* WorldSnakeTaskConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeTaskConstructor.h; sourceTree = "<group>"; };
+		602488C820B001B100D6F75B /* WSURLComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSURLComponents.h; sourceTree = "<group>"; };
+		602488C920B001B100D6F75B /* WorldSnakeURLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeURLEncoding.m; sourceTree = "<group>"; };
+		602488CA20B001B100D6F75B /* WSURLComponents+Enconding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WSURLComponents+Enconding.h"; sourceTree = "<group>"; };
+		602488CB20B001B100D6F75B /* WSEncodingAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEncodingAttribute.h; sourceTree = "<group>"; };
+		602488CC20B001B100D6F75B /* WSURLComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSURLComponents.m; sourceTree = "<group>"; };
+		602488CD20B001B100D6F75B /* WorldSnakeTaskConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeTaskConstructor.m; sourceTree = "<group>"; };
+		602488CF20B001B100D6F75B /* WorldSnakeMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeMacro.m; sourceTree = "<group>"; };
+		602488D020B001B100D6F75B /* WorldSnakeMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeMacro.h; sourceTree = "<group>"; };
+		602488D220B001B100D6F75B /* WorldSnakeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeResult.h; sourceTree = "<group>"; };
+		602488D320B001B100D6F75B /* WSResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSResponseSerialization.m; sourceTree = "<group>"; };
+		602488D420B001B100D6F75B /* WorldSnakeDownloadResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDownloadResult.m; sourceTree = "<group>"; };
+		602488D520B001B100D6F75B /* WorldSnakeDataResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDataResult.m; sourceTree = "<group>"; };
+		602488D620B001B100D6F75B /* WorldSnakeUploadResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeUploadResult.m; sourceTree = "<group>"; };
+		602488D720B001B100D6F75B /* WorldSnakeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeResult.m; sourceTree = "<group>"; };
+		602488D820B001B100D6F75B /* WorldSnakeUploadResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeUploadResult.h; sourceTree = "<group>"; };
+		602488D920B001B100D6F75B /* WorldSnakeDownloadResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDownloadResult.h; sourceTree = "<group>"; };
+		602488DA20B001B100D6F75B /* WSResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSResponseSerialization.h; sourceTree = "<group>"; };
+		602488DB20B001B100D6F75B /* WorldSnakeDataResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDataResult.h; sourceTree = "<group>"; };
+		602488DD20B001B100D6F75B /* WorldSnakeSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeSession.m; sourceTree = "<group>"; };
+		602488DE20B001B100D6F75B /* WorldSnakeSession+WSAdding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WorldSnakeSession+WSAdding.m"; sourceTree = "<group>"; };
+		602488DF20B001B100D6F75B /* WorldSnakeDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldSnakeDelegator.m; sourceTree = "<group>"; };
+		602488E020B001B100D6F75B /* WorldSnakeSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeSessionDelegate.h; sourceTree = "<group>"; };
+		602488E120B001B100D6F75B /* WorldSnakeDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeDelegator.h; sourceTree = "<group>"; };
+		602488E220B001B100D6F75B /* WorldSnakeSession+WSAdding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WorldSnakeSession+WSAdding.h"; sourceTree = "<group>"; };
+		602488E320B001B100D6F75B /* WorldSnakeSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldSnakeSession.h; sourceTree = "<group>"; };
+		6075A51220B12F9100EC8F4B /* NSError+WSAdding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+WSAdding.h"; sourceTree = "<group>"; };
+		6075A51320B12F9100EC8F4B /* NSError+WSAdding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+WSAdding.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6024889A20B0013300D6F75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6024889420B0013300D6F75B = {
+			isa = PBXGroup;
+			children = (
+				602488A920B0016400D6F75B /* Source */,
+				6024889F20B0013300D6F75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6024889F20B0013300D6F75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6024889E20B0013300D6F75B /* WorldSnake.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602488A920B0016400D6F75B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				602488DC20B001B100D6F75B /* Session */,
+				602488BA20B001B100D6F75B /* Request */,
+				602488AF20B001B100D6F75B /* Task */,
+				602488D120B001B100D6F75B /* Result */,
+				602488C320B001B100D6F75B /* Encoding */,
+				602488CE20B001B100D6F75B /* Macro */,
+				6075A51120B12F4C00EC8F4B /* Error */,
+				602488AE20B0017000D6F75B /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		602488AE20B0017000D6F75B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				602488AA20B0016400D6F75B /* WorldSnake.h */,
+				602488AB20B0016400D6F75B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		602488AF20B001B100D6F75B /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				602488B520B001B100D6F75B /* WorldSnakeTaskDelegator.h */,
+				602488B020B001B100D6F75B /* WorldSnakeTaskDelegator.m */,
+				602488B220B001B100D6F75B /* WorldSnakeDataTaskDelegator.h */,
+				602488B720B001B100D6F75B /* WorldSnakeDataTaskDelegator.m */,
+				602488B320B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.h */,
+				602488B920B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.m */,
+				602488B120B001B100D6F75B /* WorldSnakeUploadTaskDelegator.h */,
+				602488B620B001B100D6F75B /* WorldSnakeUploadTaskDelegator.m */,
+				602488B420B001B100D6F75B /* NSURLSessionTask+WSAdding.h */,
+				602488B820B001B100D6F75B /* NSURLSessionTask+WSAdding.m */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		602488BA20B001B100D6F75B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				602488C020B001B100D6F75B /* WorldSnakeRequest.h */,
+				602488BB20B001B100D6F75B /* WorldSnakeRequest.m */,
+				602488BF20B001B100D6F75B /* WorldSnakeDataRequest.h */,
+				602488BC20B001B100D6F75B /* WorldSnakeDataRequest.m */,
+				602488BE20B001B100D6F75B /* WorldSnakeDownloadRequest.h */,
+				602488C120B001B100D6F75B /* WorldSnakeDownloadRequest.m */,
+				602488C220B001B100D6F75B /* WorldSnakeUploadRequest.h */,
+				602488BD20B001B100D6F75B /* WorldSnakeUploadRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		602488C320B001B100D6F75B /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				602488C520B001B100D6F75B /* WorldSnakeURLEncoding.h */,
+				602488C920B001B100D6F75B /* WorldSnakeURLEncoding.m */,
+				602488C720B001B100D6F75B /* WorldSnakeTaskConstructor.h */,
+				602488CD20B001B100D6F75B /* WorldSnakeTaskConstructor.m */,
+				602488C820B001B100D6F75B /* WSURLComponents.h */,
+				602488CC20B001B100D6F75B /* WSURLComponents.m */,
+				602488CA20B001B100D6F75B /* WSURLComponents+Enconding.h */,
+				602488C420B001B100D6F75B /* WSURLComponents+Enconding.m */,
+				602488CB20B001B100D6F75B /* WSEncodingAttribute.h */,
+				602488C620B001B100D6F75B /* WSEncodingAttribute.m */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		602488CE20B001B100D6F75B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				602488D020B001B100D6F75B /* WorldSnakeMacro.h */,
+				602488CF20B001B100D6F75B /* WorldSnakeMacro.m */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		602488D120B001B100D6F75B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				602488DA20B001B100D6F75B /* WSResponseSerialization.h */,
+				602488D320B001B100D6F75B /* WSResponseSerialization.m */,
+				602488D220B001B100D6F75B /* WorldSnakeResult.h */,
+				602488D720B001B100D6F75B /* WorldSnakeResult.m */,
+				602488DB20B001B100D6F75B /* WorldSnakeDataResult.h */,
+				602488D520B001B100D6F75B /* WorldSnakeDataResult.m */,
+				602488D920B001B100D6F75B /* WorldSnakeDownloadResult.h */,
+				602488D420B001B100D6F75B /* WorldSnakeDownloadResult.m */,
+				602488D820B001B100D6F75B /* WorldSnakeUploadResult.h */,
+				602488D620B001B100D6F75B /* WorldSnakeUploadResult.m */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		602488DC20B001B100D6F75B /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				602488E320B001B100D6F75B /* WorldSnakeSession.h */,
+				602488DD20B001B100D6F75B /* WorldSnakeSession.m */,
+				602488E220B001B100D6F75B /* WorldSnakeSession+WSAdding.h */,
+				602488DE20B001B100D6F75B /* WorldSnakeSession+WSAdding.m */,
+				602488E020B001B100D6F75B /* WorldSnakeSessionDelegate.h */,
+				602488E120B001B100D6F75B /* WorldSnakeDelegator.h */,
+				602488DF20B001B100D6F75B /* WorldSnakeDelegator.m */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		6075A51120B12F4C00EC8F4B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				6075A51220B12F9100EC8F4B /* NSError+WSAdding.h */,
+				6075A51320B12F9100EC8F4B /* NSError+WSAdding.m */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6024889B20B0013300D6F75B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602488AC20B0016400D6F75B /* WorldSnake.h in Headers */,
+				6024890120B001B100D6F75B /* WorldSnakeMacro.h in Headers */,
+				6024891220B001B100D6F75B /* WorldSnakeSession.h in Headers */,
+				6024890F20B001B100D6F75B /* WorldSnakeSessionDelegate.h in Headers */,
+				6024891120B001B100D6F75B /* WorldSnakeSession+WSAdding.h in Headers */,
+				602488F120B001B100D6F75B /* WorldSnakeDownloadRequest.h in Headers */,
+				602488F320B001B100D6F75B /* WorldSnakeRequest.h in Headers */,
+				602488F520B001B100D6F75B /* WorldSnakeUploadRequest.h in Headers */,
+				602488F220B001B100D6F75B /* WorldSnakeDataRequest.h in Headers */,
+				6024890920B001B100D6F75B /* WorldSnakeDownloadResult.h in Headers */,
+				6024890B20B001B100D6F75B /* WorldSnakeDataResult.h in Headers */,
+				6024890220B001B100D6F75B /* WorldSnakeResult.h in Headers */,
+				6024890820B001B100D6F75B /* WorldSnakeUploadResult.h in Headers */,
+				602488FA20B001B100D6F75B /* WSURLComponents.h in Headers */,
+				602488FC20B001B100D6F75B /* WSURLComponents+Enconding.h in Headers */,
+				602488FD20B001B100D6F75B /* WSEncodingAttribute.h in Headers */,
+				602488F920B001B100D6F75B /* WorldSnakeTaskConstructor.h in Headers */,
+				602488F720B001B100D6F75B /* WorldSnakeURLEncoding.h in Headers */,
+				6024890A20B001B100D6F75B /* WSResponseSerialization.h in Headers */,
+				602488E520B001B100D6F75B /* WorldSnakeUploadTaskDelegator.h in Headers */,
+				602488E820B001B100D6F75B /* NSURLSessionTask+WSAdding.h in Headers */,
+				602488E720B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.h in Headers */,
+				602488E620B001B100D6F75B /* WorldSnakeDataTaskDelegator.h in Headers */,
+				6024891020B001B100D6F75B /* WorldSnakeDelegator.h in Headers */,
+				602488E920B001B100D6F75B /* WorldSnakeTaskDelegator.h in Headers */,
+				6075A51420B12F9100EC8F4B /* NSError+WSAdding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6024889D20B0013300D6F75B /* WorldSnake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602488A620B0013300D6F75B /* Build configuration list for PBXNativeTarget "WorldSnake" */;
+			buildPhases = (
+				6024889920B0013300D6F75B /* Sources */,
+				6024889A20B0013300D6F75B /* Frameworks */,
+				6024889B20B0013300D6F75B /* Headers */,
+				6024889C20B0013300D6F75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldSnake;
+			productName = WorldSnake;
+			productReference = 6024889E20B0013300D6F75B /* WorldSnake.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6024889520B0013300D6F75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Panghu Lee";
+				TargetAttributes = {
+					6024889D20B0013300D6F75B = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6024889820B0013300D6F75B /* Build configuration list for PBXProject "WorldSnake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6024889420B0013300D6F75B;
+			productRefGroup = 6024889F20B0013300D6F75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6024889D20B0013300D6F75B /* WorldSnake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6024889C20B0013300D6F75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6024889920B0013300D6F75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602488E420B001B100D6F75B /* WorldSnakeTaskDelegator.m in Sources */,
+				602488FF20B001B100D6F75B /* WorldSnakeTaskConstructor.m in Sources */,
+				6024890720B001B100D6F75B /* WorldSnakeResult.m in Sources */,
+				6024890D20B001B100D6F75B /* WorldSnakeSession+WSAdding.m in Sources */,
+				6024890520B001B100D6F75B /* WorldSnakeDataResult.m in Sources */,
+				6024890020B001B100D6F75B /* WorldSnakeMacro.m in Sources */,
+				6024890620B001B100D6F75B /* WorldSnakeUploadResult.m in Sources */,
+				602488EE20B001B100D6F75B /* WorldSnakeRequest.m in Sources */,
+				602488EC20B001B100D6F75B /* NSURLSessionTask+WSAdding.m in Sources */,
+				602488F620B001B100D6F75B /* WSURLComponents+Enconding.m in Sources */,
+				602488EA20B001B100D6F75B /* WorldSnakeUploadTaskDelegator.m in Sources */,
+				602488F020B001B100D6F75B /* WorldSnakeUploadRequest.m in Sources */,
+				602488FB20B001B100D6F75B /* WorldSnakeURLEncoding.m in Sources */,
+				6024890C20B001B100D6F75B /* WorldSnakeSession.m in Sources */,
+				602488F420B001B100D6F75B /* WorldSnakeDownloadRequest.m in Sources */,
+				6024890420B001B100D6F75B /* WorldSnakeDownloadResult.m in Sources */,
+				6024890E20B001B100D6F75B /* WorldSnakeDelegator.m in Sources */,
+				602488F820B001B100D6F75B /* WSEncodingAttribute.m in Sources */,
+				6024890320B001B100D6F75B /* WSResponseSerialization.m in Sources */,
+				602488FE20B001B100D6F75B /* WSURLComponents.m in Sources */,
+				6075A51520B12F9100EC8F4B /* NSError+WSAdding.m in Sources */,
+				602488EB20B001B100D6F75B /* WorldSnakeDataTaskDelegator.m in Sources */,
+				602488ED20B001B100D6F75B /* WorldSnakeDownloadTaskDelegator.m in Sources */,
+				602488EF20B001B100D6F75B /* WorldSnakeDataRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		602488A420B0013300D6F75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		602488A520B0013300D6F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		602488A720B0013300D6F75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6E5E8VY4L7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingin.WorldSnake;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		602488A820B0013300D6F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6E5E8VY4L7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingin.WorldSnake;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6024889820B0013300D6F75B /* Build configuration list for PBXProject "WorldSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602488A420B0013300D6F75B /* Debug */,
+				602488A520B0013300D6F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602488A620B0013300D6F75B /* Build configuration list for PBXNativeTarget "WorldSnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602488A720B0013300D6F75B /* Debug */,
+				602488A820B0013300D6F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6024889520B0013300D6F75B /* Project object */;
+}
